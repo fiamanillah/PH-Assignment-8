@@ -6,7 +6,12 @@
 		"category": "Laptop",
 		"price": 1599,
 		"description": "The ZenBook Pro 14 Duo OLED is a powerful laptop designed for creative professionals. It features a stunning dual-screen OLED display, a powerful Intel Core processor, and a dedicated NVIDIA GeForce RTX graphics card. With its sleek and portable design, the ZenBook Pro 14 Duo OLED is the perfect laptop for on-the-go productivity and creativity.",
-		"specification": "[Processor, RAM, Storage, Graphics]",
+		"specification": [
+			"Processor: Intel Core i9",
+			"RAM: 16GB",
+			"Storage: 1TB SSD",
+			"Graphics: NVIDIA GeForce RTX 3050"
+		],
 		"availability": true,
 		"rating": 4.8
 	},
@@ -17,7 +22,12 @@
 		"category": "iPhone",
 		"price": 1099,
 		"description": "The iPhone 15 Pro Max is Apple's latest flagship smartphone, featuring a powerful A17 Bionic chip, a stunning Super Retina XDR display, and a state-of-the-art camera system. With its advanced features like Dynamic Island, Action Mode, and Emergency SOS via Satellite, the iPhone 15 Pro Max is the ultimate smartphone for power users.",
-		"specification": "[Processor, Display, Storage, Camera]",
+		"specification": [
+			"Processor: A17 Bionic",
+			"Display: 6.7-inch Super Retina XDR",
+			"Storage: 512GB",
+			"Camera: Triple 48MP setup"
+		],
 		"availability": true,
 		"rating": 4.9
 	},
@@ -28,7 +38,12 @@
 		"category": "Smart Watch",
 		"price": 399,
 		"description": "The Apple Watch Series 9 is a premium smartwatch that offers a wide range of health and fitness features, including advanced heart rate monitoring, ECG, blood oxygen sensing, and sleep tracking. With its stylish design and long battery life, the Apple Watch Series 9 is the perfect companion for an active lifestyle.",
-		"specification": "[Processor, Display, Battery Life, Water Resistance]",
+		"specification": [
+			"Processor: S9 SiP",
+			"Display: Always-On Retina",
+			"Battery Life: Up to 18 hours",
+			"Water Resistance: 50m"
+		],
 		"availability": true,
 		"rating": 4.7
 	},
@@ -39,7 +54,12 @@
 		"category": "MacBook",
 		"price": 999,
 		"description": "The MacBook Air M2 is a lightweight and powerful laptop that's perfect for students, professionals, and creatives. It features a stunning Liquid Retina display, a powerful M2 chip, and all-day battery life. With its sleek design and impressive performance, the MacBook Air M2 is a great choice for anyone looking for a versatile and portable laptop.",
-		"specification": "[Processor, RAM, Storage, Display]",
+		"specification": [
+			"Processor: M2",
+			"RAM: 8GB",
+			"Storage: 256GB SSD",
+			"Display: 13.6-inch Liquid Retina"
+		],
 		"availability": true,
 		"rating": 4.6
 	},
@@ -50,7 +70,12 @@
 		"category": "Phone",
 		"price": 1199,
 		"description": "The Samsung Galaxy S24 Ultra is a high-end Android smartphone that offers a stunning display, a powerful processor, and a state-of-the-art camera system. With its advanced features like the S Pen, Night Mode, and 8K video recording, the Galaxy S24 Ultra is a great choice for power users and mobile photographers.",
-		"specification": "[Processor, Display, Storage, Camera]",
+		"specification": [
+			"Processor: Snapdragon 8 Gen 3",
+			"Display: 6.8-inch Dynamic AMOLED 2X",
+			"Storage: 512GB",
+			"Camera: Quad 200MP system"
+		],
 		"availability": true,
 		"rating": 4.8
 	},
@@ -61,7 +86,11 @@
 		"category": "Phone Accessories",
 		"price": 249,
 		"description": "The AirPods Pro 2 are Apple's latest wireless earbuds, featuring active noise cancellation, personalized spatial audio, and longer battery life. With their comfortable fit and high-quality sound, the AirPods Pro 2 are the perfect choice for music lovers and on-the-go professionals.",
-		"specification": "[Battery Life, Noise Cancellation, Audio Quality]",
+		"specification": [
+			"Battery Life: Up to 6 hours",
+			"Noise Cancellation: Active",
+			"Audio Quality: Adaptive EQ"
+		],
 		"availability": true,
 		"rating": 4.9
 	},
@@ -72,7 +101,12 @@
 		"category": "Laptop",
 		"price": 1299,
 		"description": "The Dell XPS 13 Plus is a sleek and powerful laptop that's perfect for professionals and students. It features a stunning edge-to-edge display, a powerful Intel Core processor, and a long-lasting battery. With its innovative design and impressive performance, the XPS 13 Plus is a great choice for anyone looking for a high-quality laptop.",
-		"specification": "[Processor, RAM, Storage, Display]",
+		"specification": [
+			"Processor: Intel Core i7",
+			"RAM: 16GB",
+			"Storage: 512GB SSD",
+			"Display: 13.4-inch UHD+"
+		],
 		"availability": true,
 		"rating": 4.7
 	},
@@ -83,7 +117,11 @@
 		"category": "Smart Watch",
 		"price": 299,
 		"description": "The Fitbit Sense 2 is an advanced fitness and health smartwatch that offers a wide range of features, including heart rate monitoring, ECG, skin temperature sensing, and stress management tools. With its stylish design and long battery life, the Fitbit Sense 2 is the perfect companion for a healthy lifestyle.",
-		"specification": "[Heart Rate Tracking, Stress Management, Sleep Tracking]",
+		"specification": [
+			"Heart Rate Tracking: Continuous",
+			"Stress Management: EDA Sensor",
+			"Sleep Tracking: Advanced Analysis"
+		],
 		"availability": true,
 		"rating": 4.5
 	},
@@ -94,7 +132,12 @@
 		"category": "Tablet",
 		"price": 1099,
 		"description": "The iPad Pro 12.9-inch is a powerful tablet that's perfect for creative professionals and students. It features a stunning Liquid Retina XDR display, a powerful M2 chip, and support for Apple Pencil and Magic Keyboard. With its versatility and performance, the iPad Pro 12.9-inch is a great choice for anyone who needs a powerful and portable device.",
-		"specification": "[Processor, Display, Storage, Apple Pencil Support]",
+		"specification": [
+			"Processor: M2",
+			"Display: 12.9-inch Liquid Retina XDR",
+			"Storage: 512GB",
+			"Apple Pencil Support: 2nd Generation"
+		],
 		"availability": true,
 		"rating": 4.8
 	},
@@ -103,9 +146,13 @@
 		"product_title": "Anker PowerCore 20000 PD",
 		"product_image": "https://fi.amanillah.com/img/assignment8/Anker_PowerCore_20000_PD.jpg",
 		"category": "Phone Accessories",
-		"price": 49,
+		"price": 59,
 		"description": "The Anker PowerCore 20000 PD is a high-capacity portable charger that's perfect for keeping your devices charged on the go. It features a powerful 20,000mAh battery, multiple USB-C and USB-A ports, and Power Delivery 3.0 fast charging. With its compact design and powerful performance, the Anker PowerCore 20000 PD is a must-have accessory for any traveler.",
-		"specification": "[Capacity, Charging Speed, Portability]",
+		"specification": [
+			"Capacity: 20,000mAh",
+			"Charging Speed: 18W PD",
+			"Portability: Compact Design"
+		],
 		"availability": true,
 		"rating": 4.6
 	},
@@ -117,7 +164,12 @@
 		"category": "Laptop",
 		"price": 999,
 		"description": "The Microsoft Surface Laptop 5 is a versatile 2-in-1 laptop that seamlessly transitions from laptop to tablet mode. It features a stunning touchscreen display, a powerful Intel processor, and a sleek, modern design. Perfect for work, study, and entertainment.",
-		"specification": "[Processor, RAM, Storage, Display]",
+		"specification": [
+			"Processor: Intel",
+			"RAM: 8GB",
+			"Storage: 256GB SSD",
+			"Display: 13.5-inch Touchscreen"
+		],
 		"availability": true,
 		"rating": 4.5
 	},
@@ -128,7 +180,11 @@
 		"category": "Smart Watch",
 		"price": 399,
 		"description": "The Garmin Venu 2 Plus is a stylish smartwatch that offers a wide range of health and fitness features, including advanced heart rate monitoring, stress tracking, and sleep analysis. It also features built-in GPS for outdoor activities and contactless payments.",
-		"specification": "[Heart Rate Tracking, Stress Monitoring, Sleep Tracking]",
+		"specification": [
+			"Heart Rate Tracking: Advanced",
+			"Stress Monitoring: Real-time",
+			"Sleep Tracking: Detailed Analysis"
+		],
 		"availability": true,
 		"rating": 4.6
 	},
@@ -139,7 +195,12 @@
 		"category": "Phone",
 		"price": 999,
 		"description": "The Google Pixel 8 Pro is a powerful Android smartphone that boasts a stunning display, a cutting-edge camera system, and AI-powered features like Magic Eraser and Photo Unblur. It offers a smooth user experience and long battery life.",
-		"specification": "[Processor, Display, Storage, Camera]",
+		"specification": [
+			"Processor: Snapdragon 8 Gen 2",
+			"Display: 6.7-inch OLED",
+			"Storage: 128GB",
+			"Camera: 50MP Triple-lens"
+		],
 		"availability": true,
 		"rating": 4.7
 	},
@@ -150,7 +211,7 @@
 		"category": "Smart Watch",
 		"price": 799,
 		"description": "The Apple Watch Ultra 2 is a rugged and durable smartwatch designed for extreme sports and outdoor adventures. It features a bright display, long battery life, and advanced health and fitness tracking capabilities.",
-		"specification": "[Durability, GPS, Battery Life]",
+		"specification": ["Durability: Extreme", "GPS: Built-in", "Battery Life: 36 hours"],
 		"availability": true,
 		"rating": 4.8
 	},
@@ -161,7 +222,12 @@
 		"category": "Phone",
 		"price": 1799,
 		"description": "The Samsung Galaxy Z Fold 5 is a groundbreaking foldable smartphone that offers a large, immersive display when unfolded and a compact form factor when folded. It's powered by a powerful processor and features a versatile camera system.",
-		"specification": "[Processor, Display, Storage, Camera]",
+		"specification": [
+			"Processor: Snapdragon 8 Gen 2",
+			"Display: 7.6-inch Foldable AMOLED",
+			"Storage: 512GB",
+			"Camera: Triple 50MP System"
+		],
 		"availability": true,
 		"rating": 4.7
 	},
@@ -172,7 +238,11 @@
 		"category": "Phone Accessories",
 		"price": 149,
 		"description": "The Anker Soundcore Liberty 4 are wireless earbuds that deliver exceptional sound quality, active noise cancellation, and long battery life. They're comfortable to wear and offer a variety of features, including touch controls and voice assistant support.",
-		"specification": "[Battery Life, Noise Cancellation, Audio Quality]",
+		"specification": [
+			"Battery Life: 8 hours per charge",
+			"Noise Cancellation: Active",
+			"Audio Quality: Hi-Res"
+		],
 		"availability": true,
 		"rating": 4.8
 	},
@@ -183,7 +253,12 @@
 		"category": "Laptop",
 		"price": 1399,
 		"description": "The HP Spectre x360 14 is a sleek and stylish 2-in-1 laptop that effortlessly converts from a laptop to a tablet. It features a vibrant display, a powerful processor, and a long-lasting battery. Perfect for work, play, and creativity.",
-		"specification": "[Processor, RAM, Storage, Display]",
+		"specification": [
+			"Processor: Intel Core i7",
+			"RAM: 16GB",
+			"Storage: 512GB SSD",
+			"Display: 13.5-inch OLED Touchscreen"
+		],
 		"availability": true,
 		"rating": 4.6
 	},
@@ -192,9 +267,13 @@
 		"product_title": "Xiaomi Mi Band 8",
 		"product_image": "https://fi.amanillah.com/img/assignment8/Xiaomi_Mi_Band_8.jpg",
 		"category": "Smart Watch",
-		"price": 49,
+		"price": 59,
 		"description": "The Xiaomi Mi Band 8 is an affordable fitness tracker that offers a range of features, including heart rate monitoring, sleep tracking, and activity tracking. It's lightweight, comfortable, and has a long-lasting battery.",
-		"specification": "[Heart Rate Tracking, Sleep Tracking, Step Counting]",
+		"specification": [
+			"Heart Rate Tracking: Continuous",
+			"Sleep Tracking: Basic",
+			"Step Counting: Accurate"
+		],
 		"availability": true,
 		"rating": 4.4
 	},
@@ -205,7 +284,12 @@
 		"category": "Tablet",
 		"price": 599,
 		"description": "The iPad Air (5th generation) is a powerful and portable tablet that's perfect for work, play, and creativity. It features a stunning Liquid Retina display, a powerful M1 chip, and support for Apple Pencil and Magic Keyboard.",
-		"specification": "[Processor, Display, Storage, Apple Pencil Support]",
+		"specification": [
+			"Processor: M1",
+			"Display: 10.9-inch Liquid Retina",
+			"Storage: 256GB",
+			"Apple Pencil Support: 2nd Generation"
+		],
 		"availability": true,
 		"rating": 4.7
 	},
@@ -216,10 +300,15 @@
 		"category": "Phone Accessories",
 		"price": 129,
 		"description": "The Belkin Boost Charge Pro 3-in-1 Wireless Charger is a convenient charging solution for your iPhone and AirPods. It features three charging pads, including a MagSafe charger for iPhone 12 and later models, and a fast-charging pad for AirPods.",
-		"specification": "[Charging Speed, Compatibility, Design]",
+		"specification": [
+			"Charging Speed: Fast",
+			"Compatibility: MagSafe",
+			"Design: Sleek and Compact"
+		],
 		"availability": true,
 		"rating": 4.5
 	},
+
 	{
 		"product_id": 21,
 		"product_title": "Lenovo Yoga 9i",
@@ -227,7 +316,12 @@
 		"category": "Laptop",
 		"price": 1499,
 		"description": "The Lenovo Yoga 9i is a premium 2-in-1 laptop with a stunning OLED display, powerful performance, and a sleek design. It's perfect for work, entertainment, and creativity, and offers a versatile 360-degree hinge for multiple usage modes.",
-		"specification": "[Processor, RAM, Storage, Display]",
+		"specification": [
+			"Processor: Intel Core i7",
+			"RAM: 16GB",
+			"Storage: 512GB SSD",
+			"Display: 14-inch OLED Touchscreen"
+		],
 		"availability": true,
 		"rating": 4.7
 	},
@@ -238,7 +332,11 @@
 		"category": "Smart Watch",
 		"price": 349,
 		"description": "The Samsung Galaxy Watch 6 Classic is a timeless smartwatch that combines classic design with modern technology. It offers advanced health and fitness features like heart rate monitoring, sleep tracking, and stress management. Its elegant design and durable build make it a perfect companion for any occasion.",
-		"specification": "[Heart Rate Tracking, Stress Management, Sleep Tracking]",
+		"specification": [
+			"Heart Rate Tracking: Continuous",
+			"Stress Management: Advanced",
+			"Sleep Tracking: In-depth Analysis"
+		],
 		"availability": true,
 		"rating": 4.6
 	},
@@ -249,7 +347,12 @@
 		"category": "Phone",
 		"price": 999,
 		"description": "The iPhone 14 Pro is a powerful smartphone with a stunning Super Retina XDR display, a powerful A16 Bionic chip, and a state-of-the-art camera system. It offers advanced features like Dynamic Island, Action Mode, and Emergency SOS via Satellite. A true powerhouse in your pocket.",
-		"specification": "[Processor, Display, Storage, Camera]",
+		"specification": [
+			"Processor: A16 Bionic",
+			"Display: 6.1-inch Super Retina XDR",
+			"Storage: 256GB",
+			"Camera: Triple 48MP System"
+		],
 		"availability": true,
 		"rating": 4.8
 	},
@@ -260,7 +363,12 @@
 		"category": "MacBook",
 		"price": 1999,
 		"description": "The MacBook Pro 14-inch is a powerful and portable laptop with a stunning Liquid Retina XDR display, a powerful M2 Pro chip, and long battery life. It's perfect for creative professionals and demanding users who need a powerful and portable device.",
-		"specification": "[Processor, RAM, Storage, Display]",
+		"specification": [
+			"Processor: M2 Pro",
+			"RAM: 16GB",
+			"Storage: 1TB SSD",
+			"Display: 14-inch Liquid Retina XDR"
+		],
 		"availability": true,
 		"rating": 4.9
 	},
@@ -271,7 +379,11 @@
 		"category": "Phone Accessories",
 		"price": 79,
 		"description": "The Anker Soundcore Life Q30 are high-quality noise-cancelling headphones that offer excellent sound quality, long battery life, and comfortable fit. They're perfect for blocking out distractions and immersing yourself in your favorite music, movies, or podcasts.",
-		"specification": "[Noise Cancellation, Battery Life, Comfort]",
+		"specification": [
+			"Noise Cancellation: Hybrid ANC",
+			"Battery Life: 40 hours",
+			"Comfort: Memory Foam Ear Cushions"
+		],
 		"availability": true,
 		"rating": 4.7
 	},
@@ -282,7 +394,12 @@
 		"category": "Laptop",
 		"price": 799,
 		"description": "The Dell Inspiron 15 is an affordable and reliable laptop that's perfect for everyday computing tasks. It offers a good balance of performance and portability, making it ideal for students, professionals, and home users.",
-		"specification": "[Processor, RAM, Storage, Display]",
+		"specification": [
+			"Processor: Intel Core i5",
+			"RAM: 8GB",
+			"Storage: 512GB SSD",
+			"Display: 15.6-inch Full HD"
+		],
 		"availability": true,
 		"rating": 4.4
 	},
@@ -293,7 +410,11 @@
 		"category": "Smart Watch",
 		"price": 229,
 		"description": "The Fitbit Versa 4 is a versatile smartwatch that offers a wide range of health and fitness features, including heart rate monitoring, sleep tracking, and GPS. It's also stylish and comfortable to wear all day long.",
-		"specification": "[Heart Rate Tracking, Sleep Tracking, GPS]",
+		"specification": [
+			"Heart Rate Tracking: Advanced",
+			"Sleep Tracking: Detailed",
+			"GPS: Built-in"
+		],
 		"availability": true,
 		"rating": 4.5
 	},
@@ -304,7 +425,12 @@
 		"category": "Phone",
 		"price": 1799,
 		"description": "The Google Pixel Fold is a groundbreaking foldable smartphone that offers a unique and immersive experience. It features a large, flexible display, a powerful processor, and a versatile camera system.",
-		"specification": "[Processor, Display, Storage, Camera]",
+		"specification": [
+			"Processor: Google Tensor G2",
+			"Display: 7.6-inch Foldable OLED",
+			"Storage: 256GB",
+			"Camera: 48MP Main Lens"
+		],
 		"availability": true,
 		"rating": 4.6
 	},
@@ -315,7 +441,11 @@
 		"category": "Phone Accessories",
 		"price": 129,
 		"description": "The Apple Pencil (2nd generation) is a precision stylus designed for iPad. It offers pixel-perfect accuracy, low latency, and a comfortable grip. It's perfect for artists, designers, and note-takers.",
-		"specification": "[Precision, Battery Life, Magnetic Attachment]",
+		"specification": [
+			"Precision: Pixel-perfect",
+			"Battery Life: 12 hours",
+			"Magnetic Attachment: Yes"
+		],
 		"availability": true,
 		"rating": 4.9
 	},
@@ -326,10 +456,16 @@
 		"category": "Tablet",
 		"price": 999,
 		"description": "The Microsoft Surface Pro 9 is a powerful 2-in-1 tablet that offers a versatile computing experience. It features a stunning touchscreen display, a powerful processor, and support for the Surface Pen and Keyboard. It's perfect for work, study, and creativity.",
-		"specification": "[Processor, Display, Storage, Pen Support]",
+		"specification": [
+			"Processor: Intel Core i7",
+			"Display: 13-inch PixelSense",
+			"Storage: 512GB SSD",
+			"Pen Support: Surface Pen"
+		],
 		"availability": true,
 		"rating": 4.7
 	},
+
 	{
 		"product_id": 31,
 		"product_title": "Anker Soundcore AnkerMotion Plus",
@@ -337,7 +473,11 @@
 		"category": "Phone Accessories",
 		"price": 59,
 		"description": "The Anker Soundcore AnkerMotion Plus are wireless earbuds that offer excellent sound quality, long battery life, and a comfortable fit. They're also water-resistant, making them perfect for workouts and outdoor activities.",
-		"specification": "[Battery Life, Water Resistance, Comfort]",
+		"specification": [
+			"Battery Life: Up to 24 hours",
+			"Water Resistance: IPX7",
+			"Comfort: Ergonomic Fit"
+		],
 		"availability": true,
 		"rating": 4.6
 	},
@@ -348,7 +488,12 @@
 		"category": "Laptop",
 		"price": 1299,
 		"description": "The Samsung Galaxy Book3 Pro 360 is a versatile 2-in-1 laptop that offers a stunning OLED display, powerful performance, and a sleek design. It's perfect for work, entertainment, and creativity, and offers a 360-degree hinge for multiple usage modes.",
-		"specification": "[Processor, RAM, Storage, Display]",
+		"specification": [
+			"Processor: Intel Core i7",
+			"RAM: 16GB",
+			"Storage: 1TB SSD",
+			"Display: 15.6-inch OLED"
+		],
 		"availability": true,
 		"rating": 4.8
 	},
@@ -359,7 +504,11 @@
 		"category": "Smart Watch",
 		"price": 149,
 		"description": "The Fitbit Luxe is a sleek and stylish fitness tracker that offers a range of health and wellness features, including heart rate monitoring, sleep tracking, and stress management. It's perfect for those who want a stylish and functional fitness tracker.",
-		"specification": "[Heart Rate Tracking, Sleep Tracking, Stress Management]",
+		"specification": [
+			"Heart Rate Tracking: 24/7",
+			"Sleep Tracking: Detailed Analysis",
+			"Stress Management: Guided Breathing"
+		],
 		"availability": true,
 		"rating": 4.5
 	},
@@ -370,7 +519,12 @@
 		"category": "Tablet",
 		"price": 499,
 		"description": "The Apple iPad mini (6th generation) is a compact and portable tablet that's perfect for on-the-go productivity and entertainment. It features a stunning Liquid Retina display, a powerful A15 Bionic chip, and support for Apple Pencil.",
-		"specification": "[Processor, Display, Storage, Apple Pencil Support]",
+		"specification": [
+			"Processor: A15 Bionic",
+			"Display: 8.3-inch Liquid Retina",
+			"Storage: 256GB",
+			"Apple Pencil Support: 2nd Generation"
+		],
 		"availability": true,
 		"rating": 4.7
 	},
@@ -379,9 +533,13 @@
 		"product_title": "Anker PowerPort III 5-Port 65W USB-C Power Adapter",
 		"product_image": "https://fi.amanillah.com/img/assignment8/Anker_PowerPort_III_5_Port_65W_USB_C_Power_Adapter.jpg",
 		"category": "Phone Accessories",
-		"price": 49,
+		"price": 56,
 		"description": "The Anker PowerPort III 5-Port 65W USB-C Power Adapter is a powerful and versatile charging solution that can charge multiple devices simultaneously. It features five ports, including USB-C Power Delivery 3.0 and PowerIQ 3.0, to provide fast charging for your smartphones, tablets, laptops, and other devices.",
-		"specification": "[Power Output, Charging Speed, Portability]",
+		"specification": [
+			"Power Output: 65W",
+			"Charging Speed: Fast Charging",
+			"Portability: Compact Design"
+		],
 		"availability": true,
 		"rating": 4.6
 	},
@@ -392,7 +550,12 @@
 		"category": "Tablet",
 		"price": 1099,
 		"description": "The Microsoft Surface Pro 8 is a powerful and versatile 2-in-1 tablet that can be used as a laptop or a tablet. It features a stunning 13-inch touchscreen display, a powerful Intel processor, and a long-lasting battery. It's perfect for work, study, and entertainment.",
-		"specification": "[Processor, Display, Storage, Pen Support]",
+		"specification": [
+			"Processor: Intel Core i5",
+			"Display: 13-inch Touchscreen",
+			"Storage: 512GB SSD",
+			"Pen Support: Surface Pen"
+		],
 		"availability": true,
 		"rating": 4.7
 	},
@@ -403,7 +566,11 @@
 		"category": "Phone Accessories",
 		"price": 549,
 		"description": "The Apple AirPods Max are premium over-ear headphones that deliver exceptional sound quality, active noise cancellation, and long battery life. They're comfortable to wear and feature a stylish design. Perfect for music lovers and audiophiles.",
-		"specification": "[Noise Cancellation, Battery Life, Audio Quality]",
+		"specification": [
+			"Noise Cancellation: Active",
+			"Battery Life: Up to 20 hours",
+			"Audio Quality: High-Fidelity"
+		],
 		"availability": true,
 		"rating": 4.8
 	},
@@ -414,7 +581,12 @@
 		"category": "Laptop",
 		"price": 999,
 		"description": "The HP Envy 13 is a stylish and powerful laptop that's perfect for everyday use. It features a stunning display, a powerful processor, and a long-lasting battery. It's great for work, study, and entertainment.",
-		"specification": "[Processor, RAM, Storage, Display]",
+		"specification": [
+			"Processor: Intel Core i7",
+			"RAM: 16GB",
+			"Storage: 512GB SSD",
+			"Display: 13.3-inch Full HD"
+		],
 		"availability": true,
 		"rating": 4.5
 	},
@@ -425,7 +597,11 @@
 		"category": "Smart Watch",
 		"price": 279,
 		"description": "The Samsung Galaxy Watch 5 is a versatile smartwatch that offers a wide range of health and fitness features, including heart rate monitoring, sleep tracking, and GPS. It's also stylish and comfortable to wear all day long.",
-		"specification": "[Heart Rate Tracking, Sleep Tracking, GPS]",
+		"specification": [
+			"Heart Rate Tracking: 24/7",
+			"Sleep Tracking: Detailed Insights",
+			"GPS: Built-In Navigation"
+		],
 		"availability": true,
 		"rating": 4.6
 	},
@@ -436,7 +612,12 @@
 		"category": "Phone",
 		"price": 899,
 		"description": "The Google Pixel 7 Pro is a high-end Android smartphone that offers a stunning display, a powerful processor, and a state-of-the-art camera system. It's also packed with AI-powered features like Magic Eraser and Photo Unblur.",
-		"specification": "[Processor, Display, Storage, Camera]",
+		"specification": [
+			"Processor: Google Tensor G2",
+			"Display: 6.7-inch AMOLED",
+			"Storage: 256GB",
+			"Camera: Triple-Lens System"
+		],
 		"availability": true,
 		"rating": 4.8
 	},
@@ -447,7 +628,11 @@
 		"category": "Phone Accessories",
 		"price": 29,
 		"description": "The Anker PowerWave 7.5W Wireless Charger is a compact and convenient way to charge your Qi-enabled smartphone. It's easy to use and provides fast, efficient charging.",
-		"specification": "[Charging Speed, Compatibility, Design]",
+		"specification": [
+			"Charging Speed: 7.5W Fast Charging",
+			"Compatibility: Qi-Enabled Devices",
+			"Design: Sleek and Compact"
+		],
 		"availability": true,
 		"rating": 4.5
 	}
