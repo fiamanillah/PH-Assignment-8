@@ -7,7 +7,21 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      screens: {
+        '2xl-d': { max: '1535px' },
+
+        'xl-l': { max: '1279px' },
+
+        'lg-t': { max: '1023px' },
+
+        'md-p': { max: '767px' },
+
+        'sm-p': { max: '639px' },
+      },colors:{
+        "primary" : "#9538e2"
+      }
+    },
   },
   plugins: [
     typography,
