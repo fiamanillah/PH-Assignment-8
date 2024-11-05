@@ -12,7 +12,7 @@
 			"Storage: 1TB SSD",
 			"Graphics: NVIDIA GeForce RTX 3050"
 		],
-		"availability": false,
+		"availability": true,
 		"rating": 4.8
 	},
 	{
@@ -698,7 +698,7 @@
 			"Storage: 1TB",
 			"Camera: Triple 48MP setup"
 		],
-		"availability": false,
+		"availability": true,
 		"rating": 4.6
 	}
 ]
