@@ -19,7 +19,7 @@ function WishlistItem({ wishItem }) {
 					alt=""
 				/>
 				<div className="flex justify-between w-full">
-					<div className="flex flex-col items-start justify-between gap-2">
+					<div className="flex flex-col items-start justify-between gap-2 sm-p:prose-h1:text-xl">
 						<h1>{wishItem.product_title}</h1>
 						{/* <p>{wishItem.description}</p> */}
 						<strong>Price: $ {wishItem.price}</strong>

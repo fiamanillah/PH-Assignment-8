@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 function HeroSection() {
 	return (
 		<section>
-			<div className="bg-[#9538e2] flex flex-col relative justify-center items-center max-w-screen-xl py-5 px-[2%] pb-60 rounded-b-3xl mx-auto">
+			<div className="bg-[#9538e2] flex flex-col relative justify-center items-center max-w-screen-xl py-5 px-[2%] pb-60 rounded-b-3xl mx-auto lg-t:mx-[1%]">
 				<div className="flex flex-col max-w-[60%] lg-t:max-w-[70%] md-p:max-w-[90%] text-center justify-center items-center prose-h1:text-white text-white">
 					<h1>Upgrade Your Tech Accessorize with Gadget Heaven Accessories</h1>
 					<p>

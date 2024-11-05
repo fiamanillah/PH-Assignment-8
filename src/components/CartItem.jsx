@@ -17,7 +17,7 @@ function CartItem({cartItem}) {
 					alt=""
 				/>
 				<div className="flex justify-between w-full">
-					<div className="flex flex-col items-start justify-between gap-2">
+					<div className="flex flex-col items-start justify-between gap-2 sm-p:prose-h1:text-xl">
 						<h1>{cartItem.product_title}</h1>
 						{/* <p>{cartItem.description}</p> */}
 						<strong>Price: $ {cartItem.price}</strong>

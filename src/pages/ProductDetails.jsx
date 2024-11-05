@@ -40,8 +40,8 @@ function ProductDetails() {
 	}
 
 	return (
-		<section className="bg-primary">
-			<div className="flex flex-col max-w-screen-xl py-5 px-[1%] mx-auto relative pb-[200px] mb-[400px]">
+		<section className="bg-custom-gradient">
+			<div className="flex flex-col max-w-screen-xl py-5 px-[1%] mx-auto">
 				<div className="text-white text-center">
 					<h1 className="text-white">Product Details</h1>
 					<p>
@@ -50,11 +50,11 @@ function ProductDetails() {
 					</p>
 				</div>
 
-				<div className="absolute -bottom-[300px] w-full">
-					<div className="bg-white overflow-hidden rounded-3xl w-11/12 mx-auto flex flex-col gap-4 p-3">
-						<div className="flex gap-4">
+				<div className=" w-full">
+					<div className="bg-white overflow-hidden rounded-3xl w-11/12 sm-p:w-full mx-auto flex flex-col gap-4 p-3">
+						<div className="flex gap-4 sm-p:flex-col">
 							<img
-								className="w-5/12 m-0 p-0 rounded-xl object-cover border"
+								className="w-5/12 sm-p:w-full sm-p:max-h-[200px] m-0 p-0 rounded-xl object-cover border"
 								src={product.product_image}
 								alt={product.product_title}
 							/>

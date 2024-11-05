@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 
 function PurchaseModal({ setIsModalActive, totalPrice }) {
@@ -7,6 +8,14 @@ function PurchaseModal({ setIsModalActive, totalPrice }) {
 		setIsModalActive(false);
 		navigate("/"); // Navigate to the home page
 	};
+
+	useEffect(() => {
+		document.body.classList.add("overflow-hidden");
+
+		return () => {
+			document.body.classList.remove("overflow-hidden");
+		};
+	}, []);
 
 	return (
 		<div className="fixed inset-0 bg-[#0000006a] flex justify-center items-center">

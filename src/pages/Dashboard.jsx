@@ -73,15 +73,15 @@ function Dashboard() {
 
 				{activeTab === "cart" && (
 					<div className="flex flex-col max-w-screen-xl py-5 px-[1%] mx-auto justify-between text-white prose-h2:m-0">
-						<div className="flex justify-between items-center py-10 w-full">
+						<div className="flex sm-p:flex-col justify-between items-start py-10 w-full">
 							<h2>Cart</h2>
-							<div className="flex items-center gap-3">
+							<div className="flex items-center sm-p:justify-between sm-p:w-full gap-3 sm-p:prose-h2:text-xl">
 								<h2>
 									Total cost: <span>{totalPrice}</span>$
 								</h2>
 
 								<button
-									className="flex font-bold text-primary items-center border-2 border-primary py-2 px-4 rounded-full gap-2"
+									className="flex font-bold text-primary items-center border-2 border-primary py-2 px-4 rounded-full gap-2 sm-p:text-sm"
 									onClick={() => {
 										cartItems.length > 0
 											? sortByPrice()
@@ -91,7 +91,7 @@ function Dashboard() {
 								</button>
 
 								<button
-									className="flex font-bold bg-primary items-center border-2 border-primary py-2 px-4 rounded-full"
+									className="flex font-bold bg-primary items-center border-2 border-primary py-2 px-4 rounded-full sm-p:text-sm"
 									onClick={handlePurchase}>
 									Purchase
 								</button>

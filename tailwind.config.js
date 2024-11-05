@@ -20,7 +20,9 @@ export default {
         'sm-p': { max: '639px' },
       },colors:{
         "primary" : "#9538e2"
-      }
+      },backgroundImage: {
+        'custom-gradient': 'linear-gradient(to bottom, #9538e2 30%, #f1f5f9 30%)',
+      },
     },
   },
   plugins: [

@@ -1,4 +1,14 @@
+import { useEffect } from "react";
+
 function ContactModal({ setIsModalActive }) {
+	useEffect(() => {
+		document.body.classList.add("overflow-hidden");
+
+		return () => {
+			document.body.classList.remove("overflow-hidden");
+		};
+	}, []);
+
 	return (
 		<div className="fixed inset-0 bg-[#0000006a] flex justify-center items-center">
 			<div className="bg-white p-5 rounded-2xl flex flex-col items-center prose-p:m-1 prose-h1:m-2">
