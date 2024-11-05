@@ -5,23 +5,27 @@ import { NavLink, useParams, useNavigate } from "react-router-dom";
 
 function ProductLayout() {
 	const { products } = useContext(ProductContext);
-	const { category } = useParams(); // Get the category from the URL
-	const navigate = useNavigate(); // For navigation to the error page
-	const [filteredProduct, setFilteredProduct] = useState(products);
+	const { category } = useParams();
+	const navigate = useNavigate();
+	const [filteredProduct, setFilteredProduct] = useState([]);
 	const [activeCategory, setActiveCategory] = useState(category || "all");
-
 	const [showCatagory, setShowCatagory] = useState(false);
 
-	const productCategories = [...new Set(products.map((product) => product.category))];
+	const productCategories = products.length
+		? [...new Set(products.map((product) => product.category))]
+		: [];
 
 	useEffect(() => {
-		if (category && category !== "all" && !productCategories.includes(category)) {
-			navigate("/error", { replace: true });
-		} else {
-			setActiveCategory(category || "all");
+		if (products.length > 0) {
+			if (category && category !== "all" && !productCategories.includes(category)) {
+				navigate("/error", { replace: true });
+			} else {
+				setActiveCategory(category || "all");
+			}
 		}
-	}, [category, productCategories, navigate]);
+	}, [category, productCategories, navigate, products]);
 
+	// Filter products based on the active category
 	useEffect(() => {
 		if (activeCategory === "all") {
 			setFilteredProduct(products);
@@ -37,13 +41,16 @@ function ProductLayout() {
 				<h1 className="text-center">Explore Cutting-Edge Gadgets</h1>
 				<div className="flex gap-3 sm-p:flex-col items-start relative">
 					<button
-					className="hidden sm-p:block bg-primary font-bold py-2 px-4 rounded-full text-white border-2 border-primary hover:bg-slate-100 hover:text-primary active:scale-95 active:bg-slate-50 duration-200"
+						className="hidden sm-p:block bg-primary font-bold py-2 px-4 rounded-full text-white border-2 border-primary hover:bg-slate-100 hover:text-primary active:scale-95 active:bg-slate-50 duration-200"
 						onClick={() => {
 							setShowCatagory((prev) => !prev);
 						}}>
 						Catagories
 					</button>
-					<div className={`basis-2/12 lg-t:basis-3/12 sm-p:basis-full bg-white p-2 rounded-xl border-2 sm-p:shadow-xl  sm-p:origin-top-left sm-p:duration-200 sm-p:absolute sm-p:top-16 ${showCatagory ? "sm-p:scale-100" : "sm-p:scale-0"}`}>
+					<div
+						className={`basis-2/12 lg-t:basis-3/12 sm-p:basis-full bg-white p-2 rounded-xl border-2 sm-p:shadow-xl sm-p:origin-top-left sm-p:duration-200 sm-p:absolute sm-p:top-16 ${
+							showCatagory ? "sm-p:scale-100" : "sm-p:scale-0"
+						}`}>
 						<ul className="prose-li:list-none m-0 p-0 flex flex-col">
 							<li className="w-full p-0 prose-a:no-underline prose-a:block text-left rounded-full font-medium">
 								<NavLink
