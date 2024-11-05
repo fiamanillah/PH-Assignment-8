@@ -43,9 +43,9 @@ function Contact() {
 				</div>
 			</div>
 			<div className="flex flex-col max-w-screen-xl py-5 px-[1%] mx-auto text-center text-white">
-				<div className="w-full mx-auto p-5 flex items-center justify-between gap-4">
+				<div className="w-full mx-auto p-5 flex items-center justify-between gap-4 md-p:flex-col">
 					<form
-						className="mt-5 w-full text-black text-left font-bold"
+						className="mt-5 w-full text-black text-left font-bold basis-1/2"
 						onSubmit={handleSubmit}>
 						<div className="mb-4">
 							<label className="block mb-2">Name:</label>
@@ -79,7 +79,9 @@ function Contact() {
 							Submit
 						</button>
 					</form>
-					<img src="/contactus.gif" alt="Contact Us" />
+					<div className="basis-1/2">
+						<img src="/contactus.gif" alt="Contact Us" />
+					</div>
 				</div>
 			</div>
 			{isModalActive && <ContactModal setIsModalActive={setIsModalActive} />}
