@@ -6,8 +6,9 @@ import { useEffect } from "react";
 function App() {
 	const location = useLocation();
 
+
 	useEffect(() => {
-		document.title = "Home";
+		document.title = "Home | Gadget Heaven";
 	}, [location]);
 
 	return (
@@ -15,6 +16,7 @@ function App() {
 			<HeroSection />
 			<ProductLayout />
 		</div>
+
 	);
 }
 

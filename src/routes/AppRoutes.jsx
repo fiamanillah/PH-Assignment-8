@@ -5,7 +5,7 @@ import Root from "../layouts/Root";
 import Dashboard from "../pages/Dashboard";
 import ProductDetails from "../pages/ProductDetails";
 import ErrorPage from "../pages/ErrorPage";
-
+import Contact from "../pages/Contact";
 const routes = createBrowserRouter([
 	{
 		path: "/",
@@ -14,6 +14,10 @@ const routes = createBrowserRouter([
 		children: [
 			{
 				index: true,
+				element: <App />,
+			},
+			{
+				path: "category/:category",
 				element: <App />,
 			},
 			{
@@ -28,9 +32,18 @@ const routes = createBrowserRouter([
 				path: "dashboard",
 				element: <Dashboard />,
 			},
+			{
+				path: "contact", // New route for Contact Us
+				element: <Contact />,
+			},
+			{
+				path: "*",
+				element: <ErrorPage />,
+			},
 		],
 	},
 ]);
+
 
 function AppRoutes() {
 	return <RouterProvider router={routes}></RouterProvider>;

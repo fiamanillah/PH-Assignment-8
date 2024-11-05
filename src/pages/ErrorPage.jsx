@@ -1,19 +1,13 @@
-import { useLocation } from "react-router-dom";
-import Footer from "../components/Footer";
-import Header from "../components/Header";
-import { useEffect } from "react";
+import { Link } from "react-router-dom";
 
 function ErrorPage() {
-	const location = useLocation();
-
-	useEffect(() => {
-		document.title = "Error 404";
-	}, [location]);
-
 	return (
-		<div className="prose max-w-none">
-			<Header />
-			<Footer />
+		<div className="flex flex-col items-center justify-center h-screen">
+			<h1 className="text-4xl font-bold mb-4">404 - Page Not Found</h1>
+			<p className="text-lg mb-6">Sorry, the page you are looking for does not exist.</p>
+			<Link to="/" className="text-primary underline">
+				Go back to Home
+			</Link>
 		</div>
 	);
 }

@@ -12,7 +12,7 @@
 			"Storage: 1TB SSD",
 			"Graphics: NVIDIA GeForce RTX 3050"
 		],
-		"availability": true,
+		"availability": false,
 		"rating": 4.8
 	},
 	{
@@ -160,7 +160,7 @@
 	{
 		"product_id": 11,
 		"product_title": "Microsoft Surface Laptop 5",
-		"product_image": "https://fi.amanillah.com/img/assignment8/Anker_PowerCore_20000_PD.jpg",
+		"product_image": "https://fi.amanillah.com/img/assignment8/Microsoft_Surface_Laptop_5.jpg",
 		"category": "Laptop",
 		"price": 999,
 		"description": "The Microsoft Surface Laptop 5 is a versatile 2-in-1 laptop that seamlessly transitions from laptop to tablet mode. It features a stunning touchscreen display, a powerful Intel processor, and a sleek, modern design. Perfect for work, study, and entertainment.",
@@ -344,7 +344,7 @@
 		"product_id": 23,
 		"product_title": "iPhone 14 Pro",
 		"product_image": "https://fi.amanillah.com/img/assignment8/iPhone_14_Pro.jpg",
-		"category": "Phone",
+		"category": "iPhone",
 		"price": 999,
 		"description": "The iPhone 14 Pro is a powerful smartphone with a stunning Super Retina XDR display, a powerful A16 Bionic chip, and a state-of-the-art camera system. It offers advanced features like Dynamic Island, Action Mode, and Emergency SOS via Satellite. A true powerhouse in your pocket.",
 		"specification": [
@@ -635,5 +635,70 @@
 		],
 		"availability": true,
 		"rating": 4.5
+	},
+
+	{
+		"product_id": 42,
+		"product_title": "iPhone 15 Pro",
+		"product_image": "https://fi.amanillah.com/img/assignment8/iPhone_15_Pro.jpg",
+		"category": "iPhone",
+		"price": 999,
+		"description": "The iPhone 15 Pro features the same powerful A17 Bionic chip and Super Retina XDR display as the Pro Max but in a more compact size. With incredible camera advancements and all-day battery life, this device is perfect for those who want the best performance in a smaller form factor.",
+		"specification": [
+			"Processor: A17 Bionic",
+			"Display: 6.1-inch Super Retina XDR",
+			"Storage: 256GB",
+			"Camera: Triple 48MP setup"
+		],
+		"availability": true,
+		"rating": 4.8
+	},
+	{
+		"product_id": 43,
+		"product_title": "iPhone 15",
+		"product_image": "https://fi.amanillah.com/img/assignment8/iPhone_15.jpg",
+		"category": "iPhone",
+		"price": 799,
+		"description": "The iPhone 15 delivers exceptional performance with the A16 Bionic chip, a vibrant Super Retina XDR display, and an improved dual-camera system. It comes with exciting new features like Dynamic Island and emergency SOS via satellite.",
+		"specification": [
+			"Processor: A16 Bionic",
+			"Display: 6.1-inch Super Retina XDR",
+			"Storage: 128GB",
+			"Camera: Dual 48MP setup"
+		],
+		"availability": true,
+		"rating": 4.7
+	},
+	{
+		"product_id": 44,
+		"product_title": "iPhone 15 Plus",
+		"product_image": "https://fi.amanillah.com/img/assignment8/iPhone_15_Plus.jpg",
+		"category": "iPhone",
+		"price": 899,
+		"description": "The iPhone 15 Plus offers the same incredible features as the iPhone 15 but with a larger 6.7-inch Super Retina XDR display, making it ideal for those who love bigger screens. Experience faster performance, stunning photos, and all-day battery life.",
+		"specification": [
+			"Processor: A16 Bionic",
+			"Display: 6.7-inch Super Retina XDR",
+			"Storage: 128GB",
+			"Camera: Dual 48MP setup"
+		],
+		"availability": true,
+		"rating": 4.7
+	},
+	{
+		"product_id": 45,
+		"product_title": "iPhone 14 Pro Max",
+		"product_image": "https://fi.amanillah.com/img/assignment8/iPhone_14_Pro_Max.jpg",
+		"category": "iPhone",
+		"price": 1099,
+		"description": "The iPhone 14 Pro Max is a premium device with the A16 Bionic chip, a large 6.7-inch Super Retina XDR display, and an advanced triple-camera system. It also features Dynamic Island and Crash Detection, offering an unparalleled user experience.",
+		"specification": [
+			"Processor: A16 Bionic",
+			"Display: 6.7-inch Super Retina XDR",
+			"Storage: 1TB",
+			"Camera: Triple 48MP setup"
+		],
+		"availability": false,
+		"rating": 4.6
 	}
 ]
