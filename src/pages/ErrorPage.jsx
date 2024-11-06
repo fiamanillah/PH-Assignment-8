@@ -10,9 +10,9 @@ function ErrorPage() {
 	}, [location]);
 
 	return (
-		<div className="flex flex-col items-center justify-start h-screen">
-			<img className="max-w-[300px]" src="/404.png" alt="" />
-			<p className="text-lg mb-6">Sorry, the page you are looking for does not exist.</p>
+		<div className="flex fixed inset-0 z-10 bg-slate-50 flex-col items-center justify-center h-screen">
+			<img className="max-w-[300px] m-0" src="/404.png" alt="" />
+			<p className="text-lg mb-3 mt-0">Sorry, the page you are looking for does not exist.</p>
 			<Link to="/" className="text-primary underline">
 				Go back to Home
 			</Link>
