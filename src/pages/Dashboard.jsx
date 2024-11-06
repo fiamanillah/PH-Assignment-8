@@ -81,7 +81,8 @@ function Dashboard() {
 								</h2>
 
 								<button
-									className="flex font-bold text-primary items-center border-2 border-primary py-2 px-4 rounded-full gap-2 sm-p:text-sm"
+									className="flex font-bold text-primary items-center border-2 border-primary py-2 px-4 rounded-full gap-2 sm-p:text-sm disabled:opacity-50 disabled:cursor-not-allowed"
+									disabled={totalPrice > 0 ? false : true}
 									onClick={() => {
 										cartItems.length > 0
 											? sortByPrice()
